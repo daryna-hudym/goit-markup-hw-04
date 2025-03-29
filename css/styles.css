@@ -315,9 +315,9 @@ img {
 }
 .social-links {
     display: flex;
-    gap: 24px;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .social-links-item {
