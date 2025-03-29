@@ -116,6 +116,7 @@ img {
     content: '';
     position: absolute;
     top: 0;
+    left: 0;
     bottom: -1px;
     border-radius: 2px;
     width: 100%;
@@ -203,6 +204,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-order:hover, .button-order:focus {
@@ -340,7 +342,7 @@ img {
 }
 
 .icon {   
-    fill: #FFFFFF;
+    fill: #f4f4fd;
 }
 
 
@@ -373,6 +375,7 @@ img {
 
 .portfolio-card {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card:hover {
@@ -461,6 +464,11 @@ img {
     margin-right: 120px;    
 }
 
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
 .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #31d0aa;
@@ -474,5 +482,6 @@ img {
     color: #fff;
     margin-bottom: 16px;
 }
+
 
 /* ---------FOOTER--------- */
